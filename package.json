@@ -1,0 +1,42 @@
+{
+  "name": "higher-order-validator",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A validation library that provides a higher order validator to wrap around your classes!",
+  "main": "lib/validated.js",
+  "scripts": {
+    "lint": "eslint src/ spec/ -f compact",
+    "test": "mocha --compilers js:babel/register spec --recursive",
+    "compile": "NODE_ENV=production babel -d lib/ src/",
+    "prepublish": "NODE_ENV=production npm run lint && npm test && npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decomplect-io/higher-order-validator.git"
+  },
+  "keywords": [
+    "validation",
+    "validator",
+    "es2015",
+    "es6",
+    "composition"
+  ],
+  "author": "Decomplect Software LLP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decomplect-io/higher-order-validator/issues"
+  },
+  "homepage": "https://github.com/decomplect-io/higher-order-validator#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-eslint": "^4.1.0",
+    "chai": "^3.2.0",
+    "eslint": "^1.3.1",
+    "gulp": "^3.9.0",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "moment": "^2.10.6",
+    "validate.js": "^0.8.0"
+  }
+}
