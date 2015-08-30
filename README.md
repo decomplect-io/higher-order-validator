@@ -45,7 +45,7 @@ constraints() {
 ```
 These constraints are from [Validate.js](http://validatejs.org/).
 
-Finally it with the `Validated` function -
+Finally wrap it with the `Validated` function -
 
 ```javascript
 import validated from 'higher-order-validator';
@@ -82,5 +82,5 @@ import Test from 'test';
 
 const test = new Test({ id: '1'});
 const errors = test.validate(test.constraints());
-errors ==== { duration: ['must be less than or equal to 30'] }
+errors ==== { duration: ['must be less than or equal to 30'] };
 ```
