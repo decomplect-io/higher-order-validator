@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/decomplect-io/higher-order-validator.svg?branch=master)](https://travis-ci.org/decomplect-io/higher-order-validator)
+[![npm version](https://badge.fury.io/js/higher-order-validator.svg)](http://badge.fury.io/js/higher-order-validator)
 # higher-order-validator
 
 A Javascript library that provides a `Validated` wrapper. You can wrap it around any object to automatically
