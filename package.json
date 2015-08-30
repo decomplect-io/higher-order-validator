@@ -6,7 +6,7 @@
   "main": "lib/validated.js",
   "scripts": {
     "lint": "eslint src/ spec/ -f compact",
-    "test": "mocha --compilers js:babel/register spec --recursive",
+    "test": "npm run lint && mocha --compilers js:babel/register spec --recursive",
     "compile": "NODE_ENV=production babel -d lib/ src/",
     "prepublish": "NODE_ENV=production npm run lint && npm test && npm run compile"
   },
