@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/decomplect-io/higher-order-validator.svg?branch=master)](https://travis-ci.org/decomplect-io/higher-order-validator)
 # higher-order-validator
 
 A Javascript library that provides a `Validated` wrapper. You can wrap it around any object to automatically
