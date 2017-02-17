@@ -1,6 +1,6 @@
 {
   "name": "higher-order-validator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A validation library that provides a higher order validator to wrap around your classes!",
   "main": "lib/validated.js",
   "scripts": {
