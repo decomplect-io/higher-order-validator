@@ -37,6 +37,6 @@
   "dependencies": {
     "lodash.merge": "^3.3.2",
     "moment": "^2.10.6",
-    "validate.js": "^0.8.0"
+    "validate.js": "^0.11.1"
   }
 }
